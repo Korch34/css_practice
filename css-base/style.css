@@ -16,7 +16,7 @@ h1 {
     margin: 0 auto;
     width: 50%;
     display: none;
-    /* visibility: hidden; ← если нужно задание 10 — раскомментировать, а display: none закомментировать */
+    /* visibility: hidden; если нужно задание 10, то раскомментировать, а display: none закомментировать */
 }
 strong {
     display: block;
