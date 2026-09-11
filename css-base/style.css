@@ -1,0 +1,136 @@
+body {
+    background-color: yellow;
+    background-image: url('assets/background.avif');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: lightblue;
+    padding: 40px 10px;
+    height: 100px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 50%;
+    display: none;
+    /* visibility: hidden; ← если нужно задание 10 — раскомментировать, а display: none закомментировать */
+}
+strong {
+    display: block;
+}
+/* Если задание 17, то закомментируйте display: none у h1
+   и используйте это:
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+p {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*/
+p {
+    color: red;
+    text-align: center;
+    border: 4px dashed red;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#para1 {
+    color: green;
+}
+.intro {
+    text-indent: 20px;
+}
+.text {
+    width: 200px;
+    border: 2px solid red;
+    padding: 25px;
+    margin-left: 25px;
+    outline: 5px solid black;
+}
+.colortext {
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+ul {
+    list-style: square;                       
+}
+ol {
+    list-style-type: upper-roman;         
+}
+li {
+    list-style-image: url('assets/klematis1.webp');  
+    /* list-style: none; задание 3: раскомментировать, если нужно */
+    display: inline;                           
+}
+table {
+    border-collapse: collapse;                 
+}
+
+table, th, td {
+    border: 2px solid green;                  
+}
+
+td {
+    text-align: right;                         
+}
+
+th {
+    padding: 15px;                             
+    background-color: lightblue;              
+}
+html {
+    scroll-behavior: smooth;
+}
+.intro {
+    scroll-margin-top: 20px;
+} 
+.text {
+    overflow: hidden;  
+}
+div {
+    overflow-x: auto;   
+}
+div p {
+    color: purple;
+}
+div > p {
+    color: orange;
+}
+div + p {
+    color: brown;
+}
+input:focus {
+    background-color: red;
+}
+p::first-line {
+    background-color: lightyellow;
+}
+p::first-letter {
+    background-color: pink;
+    font-size: 2em;
+}
+img {
+    opacity: 0.5;
+}
+img:hover {
+    opacity: 1;
+}
